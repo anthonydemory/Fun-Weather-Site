@@ -1,0 +1,96 @@
+body {
+    background-color:rgb(114, 137, 217);
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 30px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+
+#logo {
+    align-self: center;
+    width: 15%
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.social i {
+    padding-left: 20px;
+}
+
+.menu li {
+    padding-left: 60px;
+    color: white
+}
+
+#middle {
+    display: flex;
+    padding-top: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left {
+    padding-top: 100px;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+}
+
+.subtitle {
+    color: white;
+    font-size: 15px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.download {
+    background-color: rgb(252,106,65);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.features {
+    background-color: rgb(68, 102, 200);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px; 
+    margin-left: 10px;
+}
+
+img {
+    width: 30%;
+}
+
+i {
+    color: white
+}
